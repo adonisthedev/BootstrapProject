@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Erijoni - Material Ndertimor</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Erijoni-1</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav m-auto my-2 my-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Ballina</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Rreth Nesh</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Produktet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kontakti</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="px-2 search" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Section Part -->
+    <section class="main">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-lg-7 pt-5 text-center">
+                    <h1 class="pt-5 display-3">
+                        Ndertojme se bashku, per nje shtepi te rehatshme.
+                    </h1>
+                    <button class="btn1 mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Me shume!</button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-start">
+                              Uebsite i "Erijoni-1" eshte ne perpunim e siper. Diteve ne vijim pritet lansimi i versionit te plote.<br><br>
+                              Ju falemnderit per mirekuptimin!
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Part -->
+    <section class="product">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-lg-5 m-auto text-center">
+                    <h1 class="fw-bold">Produktet me te shitura</h1>
+                    <h6 class="text-danger fw-bold">
+                        Ndertimtaria dominon ne kompanine tone
+                    </h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img src="images/bllok.jpg" class="img-fluid" alt="Bllok betoni" />
+                        </div>
+                    </div>
+                    <h6>Bllok Betoni</h6>
+                    <p>0.5 &euro;</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img src="images/cement.jpg" class="img-fluid" alt="Cement" />
+                        </div>
+                    </div>
+                    <h6>Cement (thes)</h6>
+                    <p>12 &euro;</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img src="images/tjegulla.jpg" class="img-fluid" alt="Tjegulla" />
+                        </div>
+                    </div>
+                    <h6>Tjegulla</h6>
+                    <p>2 &euro;</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img src="images/rimorkio.jpg" class="img-fluid" alt="Rimorkio" />
+                        </div>
+                    </div>
+                    <h6>Rimorkio</h6>
+                    <p>30 &euro;</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 text-center m-auto">
+                    <button class="btn1" >Klikoni per me shume</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Examples Carousel -->
+    <div class="bg-black py-5">
+        <h1 class="fw-bold text-white text-center">Projektet ne bashkepunim me ndertuesit</h1>
+        <div id="carouselExampleAutoplaying" class="carousel slide container p-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/home.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/home.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/home.jpg" class="d-block w-100" alt="...">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="about bg-light">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-lg-8 m-auto text-center">
+                    <h1 class="fw-bold">Klientet per ne</h1>
+                    <h6 class="text-danger fw-bold mb-5">
+                        Pse te ndertoni me "Erijoni-1"
+                    </h6>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="images/profil.jpg" class="img-fluid mb-3" alt="Profil" />
+                        <h5 class="fw-bold text-center">Astrit Kavaja</h5>
+                        <p class="text-justify">
+                            Kete vit kam ndertuar shtepine. Firma "Erijoni-1" jane shume te
+                            sjellshem. Materialin e sjellin ne shtepi, gje qe lehteson shume
+                            punen e bartjes se produkteve. Kualiteti nuk mungon. Ua sygjeroj
+                            cdo bleresi!
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="images/profil.jpg" class="img-fluid mb-3" alt="Profil" />
+                        <h5 class="fw-bold text-center">Astrit Kavaja</h5>
+                        <p class="text-justify">
+                            Kete vit kam ndertuar shtepine. Firma "Erijoni-1" jane shume te
+                            sjellshem. Materialin e sjellin ne shtepi, gje qe lehteson shume
+                            punen e bartjes se produkteve. Kualiteti nuk mungon. Ua sygjeroj
+                            cdo bleresi!
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="images/profil.jpg" class="img-fluid mb-3" alt="Profil" />
+                        <h5 class="fw-bold text-center">Astrit Kavaja</h5>
+                        <p class="text-justify">
+                            Kete vit kam ndertuar shtepine. Firma "Erijoni-1" jane shume te
+                            sjellshem. Materialin e sjellin ne shtepi, gje qe lehteson shume
+                            punen e bartjes se produkteve. Kualiteti nuk mungon. Ua sygjeroj
+                            cdo bleresi!
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 text-center m-auto">
+                        <button class="btn1 mt-5">Klikoni per me shume</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner Text Part -->
+
+    <section class="home">
+        <div class="container text-white py-5">
+            <div class="row py-5">
+                <div class="col-lg-6">
+                    <h1 class="fw-bold py-5 w-75 display-4">
+                        Ju mirepresim ne kompanine tone!
+                    </h1>
+                    <button class="btn1 mt-3">Me shume per ne</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Part -->
+    <section class="contact py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-5 m-auto text-center">
+                    <h1 class="fw-bold">Na kontaktoni</h1>
+                    <h6 class="text-danger fw-bold">Percjellni ofertat tona!</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-9 m-auto">
+                    <div class="row py-5">
+                        <div class="col-lg-4">
+                            <h6 class="fw-bold">Lokacioni</h6>
+                            <p>
+                                Vushtrri, Stanoc i Eperm, Magjistralja Prishtine-Mitrovice
+                            </p>
+                            <br />
+                            <h6 class="fw-bold">Telefoni</h6>
+                            <p>Hajdini - 044195041</p>
+                            <p>Edoni - 044361772</p>
+                            <br />
+                            <h6 class="fw-bold">Emaili</h6>
+                            <p>erijoni1@gmail.com</p>
+                        </div>
+
+                        <div class="col-lg-7">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <input type="text" class="form-control bg-light" placeholder="Emri" />
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="text" class="form-control bg-light" placeholder="Mbiemri" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 py-3">
+                                    <textarea name="" class="form-control bg-light" placeholder="Shkruaj mesazhin ketu"
+                                        id="" cols="10" rows="5"></textarea>
+                                </div>
+                            </div>
+                            <button class="btn1">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Part -->
+
+    <footer class="bg-black p-5">
+        <div class="col-lg-5 m-auto text-center p-5">
+            <h1 class="fw-bold text-white">Partneri juaj per ndertim</h1>
+            <h6 class="text-danger fw-bold">
+                Ndertojme se bashku, per kenaqesine tuaj!
+            </h6>
+        </div>
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-11">
+                        <div class="row footer0">
+                            <div class="col-lg-3 py-3 text-center">
+                                <h5 class="text-white fw-bold mb-4">KUJDESI PER JU</h5>
+                                <p>
+                                    <a class="text-white text-decoration-none" href="#">Lorem, ipsum.</a>
+                                </p>
+                                <p>
+                                    <a class="text-white text-decoration-none" href="#">Lorem, ipsum.</a>
+                                </p>
+                                <p>
+                                    <a class="text-white text-decoration-none" href="#">Lorem, ipsum.</a>
+                                </p>
+                            </div>
+                            <div class="col-lg-3 py-3 text-center">
+                                <h5 class="text-white fw-bold mb-4">KUJDESI PER JU</h5>
+                                <p>
+                                    <a class="text-white text-decoration-none" href="#">Lorem, ipsum.</a>
+                                </p>
+                                <p>
+                                    <a class="text-white text-decoration-none" href="#">Lorem, ipsum.</a>
+                                </p>
+                                <p>
+                                    <a class="text-white text-decoration-none" href="#">Lorem, ipsum.</a>
+                                </p>
+                            </div>
+                            <div class="col-lg-3 py-3 text-center">
+                                <h5 class="text-white fw-bold mb-4">KUJDESI PER JU</h5>
+                                <p>
+                                    <a class="text-white text-decoration-none" href="#">Lorem, ipsum.</a>
+                                </p>
+                                <p>
+                                    <a class="text-white text-decoration-none" href="#">Lorem, ipsum.</a>
+                                </p>
+                                <p>
+                                    <a class="text-white text-decoration-none" href="#">Lorem, ipsum.</a>
+                                </p>
+                            </div>
+                            <div class="col-lg-3 py-3 text-center">
+                                <h5 class="text-white fw-bold mb-4">KUJDESI PER JU</h5>
+                                <span><i class="fab fa-facebook"></i></span>
+                                <span><i class="fab fab fa-instagram"></i></span>
+                                <span><i class="fab fa-twitter"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="text-white" />
+                <p class="text-center text-white">
+                    Copyright &copy;2023 All rights reserved | ERIJONI-1
+                </p>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
